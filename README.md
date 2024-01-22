@@ -1,8 +1,8 @@
-# Spotify Imersão - Front-End Alura
+# Spotify Imersão - Front-End Alura - Dia 01
 
-Este repositório contém os arquivos iniciais para um projeto de front-end que visa replicar a aparência da página inicial do Spotify. Abaixo, são comentadas as principais tags presentes nos arquivos `index.html` e `styles.css`.
+Este repositório contém os arquivos iniciais para um projeto desenvolvido durante a #IMERSÃO FRONT-END da Alura, em que consiste em recriar a página inicial do Spotify, usando, inicialmente, apenas HTML e CSS. Abaixo, são comentadas as principais tags presentes nos arquivos `index.html` e `styles.css`.
 
-![Logo do Spotify](./assets/img/dia-01.png){:width="800px"}
+![Dia 01 - Imersão Front-End](./assets/img/dia-01.png){width="800px"}
 
 ## Arquivo index.html
 
@@ -174,4 +174,3 @@ body {
 
 - **`.biblioteca {...}`:** Aplica estilos específicos para a seção da biblioteca, como cor de fundo e margens.
 
-Lembre-se de que este é um esboço inicial do projeto e pode ser expandido à medida que o desenvolvimento progride.
