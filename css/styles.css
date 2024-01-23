@@ -4,7 +4,7 @@ body {
 
 .sidebar {
   position: fixed;
-  top: 0;
+  top: 0; 
   left: 0;
   bottom: 0;
   padding: 12px;
@@ -46,9 +46,13 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
-.biblioteca{
-  background-color: #121212;
-  border-radius: 8px;
+.sidebar_library .library {
   margin-top: 20px;
+  background: #121212;
+  border-radius: 8px;
   padding: 16px 0 0 16px;
+}
+
+.a .fa-plus {
+  margin-left: auto;
 }
