@@ -1,4 +1,4 @@
-# Spotify Imersão - Front-End Alura - Dia 01
+# Spotify Imersão - Front-End Alura - Dia 02
 
 Este é o repositório da segunda aula da Imersão Front-End da Alura, onde estamos construindo um Clone do Spotify. Nesta aula, continuamos a trabalhar na navegação lateral do site.
 - Desafio da Aula: fazer o footer.
