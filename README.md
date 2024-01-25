@@ -1,176 +1,55 @@
 # Spotify Imersão - Front-End Alura - Dia 01
 
-Este repositório contém os arquivos iniciais para um projeto desenvolvido durante a #IMERSÃO FRONT-END da Alura, em que consiste em recriar a página inicial do Spotify, usando, inicialmente, apenas HTML e CSS. Abaixo, são comentadas as principais tags presentes nos arquivos `index.html` e `styles.css`.
+Este é o repositório da segunda aula da Imersão Front-End da Alura, onde estamos construindo um Clone do Spotify. Nesta aula, continuamos a trabalhar na navegação lateral do site.
+- Desafio da Aula: fazer o footer.
 
-![Dia 01 - Imersão Front-End](./assets/img/dia-01.png)
+![Dia 02 - Imersão Front-End](./assets/img/dia-02.png)
 
-## Arquivo index.html
+## Conteúdo da Aula
 
-```html
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <!-- Definição do conjunto de caracteres e configurações iniciais -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+- Ainda na configuração inicial do HTML e CSS
+- Criação da estrutura básica da barra lateral
+- Estilização da logo e dos itens de navegação
+- Adição de ícones usando a biblioteca Font Awesome
+- Estilização da seção "Sua biblioteca" e "Crie sua primeira playlist"
+- Adição de links para "Cookies" e "Alterar idioma"
 
-  <!-- Título da Página -->
-  <title>Spotify Imersão</title>
+## Como utilizar o projeto
 
-  <!-- Reset CSS para normalização de estilos entre navegadores -->
-  <link rel="stylesheet" href="css/reset.css">
-  
-  <!-- Estilos Personalizados -->
-  <link rel="stylesheet" href="css/styles.css">
+1. Clone este repositório em sua máquina local
+2. Abra o arquivo `index.html` em seu navegador
+3. Explore a navegação lateral do Spotify Clone
 
-  <!-- Font Awesome Icons para ícones de fontes -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css">
-</head>
-<body>
-  <!-- Barra Lateral -->
-  <div class="sidebar">
-    <nav class="sidebar_navigation">
-      
-      <!-- Logo Spotify -->
-      <div class="logo">
-        <a href="">
-          <img src="./assets/icons/logo-spotify.png" alt="logo do spotify">
-        </a>
-      </div>
+## Recursos utilizados
 
-      <!-- Navegação Inicial e de Busca -->
-      <div class="inicio-e-busca">
-        <ul>
-          <li>
-            <a href="">
-              <span class="fa fa-home"></span>
-              <span>Início</span>
-            </a>
-          </li>
-          <li>
-              <a href="">
-                <span class="fa fa-search"></span>
-                <span>Buscar</span>
-              </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+- HTML
+- CSS
+- Font Awesome (biblioteca de ícones)
 
-    <!-- Biblioteca -->
-    <div class="biblioteca">
-      <nav>
-        <ul>
-          <li>
-            <a href="">
-              <span class="fa fa-book"></span>
-              <span>Sua Biblioteca</span>
-              <span class="fa fa-plus"></span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-</body>
-</html>
-```
+## Próximos passos
 
-### Comentários sobre as principais tags:
+Na próxima aula, continuaremos a desenvolver o Spotify Clone, adicionando mais estilos e funcionalidades à página.
 
-- **`<meta charset="UTF-8">`:** Define a codificação de caracteres como UTF-8 para garantir o correto processamento de caracteres especiais.
+## Links úteis
 
-- **`<meta name="viewport" content="width=device-width, initial-scale=1.0">`:** Configura a escala inicial e a largura da tela para dispositivos móveis, proporcionando uma experiência responsiva.
+- [Documentação do HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [Documentação do CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Font Awesome](https://fontawesome.com/)
 
-- **`<title>Spotify Imersão</title>`:** Define o título da página exibido na barra de título do navegador.
+## Contribuindo
 
-- **`<link rel="stylesheet" href="css/reset.css">` e `<link rel="stylesheet" href="css/styles.css">`:** Importa os arquivos de estilo (reset e personalizado) para aplicar estilos à página.
+Contribuições são sempre bem-vindas! Se você encontrar algum problema no projeto ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-- **`<link rel="stylesheet" href="https://cdn...fontawesome.../all.min.css">`:** Importa a biblioteca Font Awesome para incluir ícones de fontes no projeto.
+## Instrutores
 
-- **`<link rel="stylesheet" href="https://cdn...solid.js.../solid.css">`:** Importa estilos do Solid.js, um framework de JavaScript (ainda não utilizado no projeto fornecido).
+- Mayara Cardoso
+- Fernanda Degolin
+- Guilherle Lima
 
-- **`<div class="sidebar">`:** Define uma barra lateral para navegação.
+## Agradecimentos
 
-- **`<a href="">`:** As âncoras vazias indicam que os links ainda não foram configurados.
+Gostaria de agradecer a todos os participantes da Imersão Front-End da Alura por tornarem esse evento possível.
 
-- **`<img src="./assets/icons/logo-spotify.png" alt="logo do spotify">`:** Insere a imagem do logo do Spotify.
+## Licença
 
-## Arquivo styles.css
-
-```css
-/* Estilos Globais */
-body {
-  background-color: green;
-}
-
-/* Estilos da Barra Lateral */
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  padding: 12px;
-  width: 300px;
-}
-
-/* Estilos da Navegação na Barra Lateral */
-.sidebar_navigation {
-  background-color: #121212;
-  border-radius: 8px;
-  padding: 16px 0 0 16px;
-}
-
-.sidebar_navigation .logo {
-  background: #121212;
-  display: flex;
-  border-radius: 8px;
-  padding: 16px 0 0 16px;
-}
-
-.sidebar_navigation .logo img {
-  width: 80px;
-}
-
-.sidebar nav ul {
-  margin-top: 20px;
-  padding: 0 20px 10px 20px;
-}
-
-.sidebar ul li {
-  padding: 10px 0;
-}
-
-.sidebar nav ul li a {
-  color: #b3b3b3;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 14px;
-  font-family: "DM Sans", sans-serif;
-}
-
-/* Estilos da Biblioteca */
-.biblioteca {
-  background-color: #121212;
-  border-radius: 8px;
-  margin-top: 20px;
-  padding: 16px 0 0 16px;
-}
-```
-
-### Comentários sobre os estilos:
-
-- **`body {...}`:** Aplica um estilo de fundo verde ao corpo da página.
-
-- **`.sidebar {...}`:** Define estilos para a barra lateral, como posição fixa, largura, e preenchimento.
-
-- **`.sidebar_navigation {...}`:** Adiciona estilos à navegação da barra lateral, como cor de fundo e borda arredondada.
-
-- **`.sidebar_navigation .logo {...}` e `.sidebar_navigation .logo img {...}`:** Estilos específicos para a área do logo, incluindo largura máxima.
-
-- **`.sidebar nav ul {...}` e `.sidebar ul li {...}`:** Define estilos para a lista de navegação na barra lateral.
-
-- **`.sidebar nav ul li a {...}`:** Adiciona estilos aos links na barra lateral, incluindo cor, tamanho da fonte e família de fontes.
-
-- **`.biblioteca {...}`:** Aplica estilos específicos para a seção da biblioteca, como cor de fundo e margens.
-
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
