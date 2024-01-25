@@ -44,7 +44,7 @@ Contribuições são sempre bem-vindas! Se você encontrar algum problema no pro
 
 - Mayara Cardoso
 - Fernanda Degolin
-- Guilherle Lima
+- Guilherme Lima
 
 ## Agradecimentos
 
