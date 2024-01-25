@@ -7,14 +7,22 @@
   <title>Spotify Imersão</title>
 
   <link rel="stylesheet" href="css/reset.css">
-  
   <link rel="stylesheet" href="css/styles.css">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css">
-  
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/solid-js@1.1.0/dist/solid.css">
 
-  
+  <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+  integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE"
+  crossorigin="anonymous"
+/>
+
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+  integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+  crossorigin="anonymous"
+/>
   
 </head>
 <body>
@@ -26,7 +34,6 @@
           <img src="./assets/icons/logo-spotify.png" alt="logo do spotify">
         </a>
       </div>
-      <div class="inicio-e-busca">
         <ul>
           <li>
             <a href="">
@@ -41,28 +48,53 @@
               </a>
           </li>
         </ul>
-      </div>
     </nav>
 
-    <nav class="sidebar_library">
-      <div class="library">
-        <ul>
-          <li>
-            <a href="">
-              <span class="fa fa-book"></span>
-              <span>Sua biblioteca</span>
-            </a>
-            <a href="">
-              <span class="fa fa-plus"></span>
-            </a>        
-          </li>
-        </ul>
+    <div class="library">
+      <div class="library_content">
+        <button class="library_button">
+          <span class="fa fas fa-book"></span>
+          <span>Sua biblioteca</span>
+        </button>
+        <span class="fa fa-plus"></span>
       </div>
-    </nav>
+    </div>
+
+    <section class="section-playlist">
+      <div class="section-playlist_content">
+        <span class="text title">Crie sua primeira playlist</span>
+        <span class="text subtitle">É fácil! Iremos te ajudar.</span>
+        <button class="section-playlist_button">
+          <span>Criar playlist</span>
+        </button>
+      </div>
+    </section>
+
+    <div class="cookies">
+      <a href="">Cookies</a>
+    </div>
+
+    <div class="languages">
+      <button class="languages_button">
+        <span class="fa fa-globe"></span><span>Português do Brasil</span>
+      </button>
+    </div>
 
   </div>
 
-
+<footer>
+  <section class="footer">
+    <div class="footer_content">
+      <ul class="footer_links">
+        <li><a class="text title" href="#">Testar o Premium de graça</a></li>
+        <li><a class="text subtitle" href="#">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</a></li>
+      </ul>
+      <button class="footer_button">
+        <span>Inscreva-se grátis</span>
+      </button>
+    </div>
+  </section>
+</footer>
   
 </body>
 </html>
