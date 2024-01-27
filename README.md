@@ -1,17 +1,18 @@
-# Spotify Imersão - Front-End Alura - Dia 03
+# Spotify Imersão - Front-End Alura - Dia 04
 
-Este é o repositório (branch) da terceira aula da Imersão Front-End da Alura, onde estamos construindo um Clone do Spotify. Nesta aula, continuamos a trabalhar na navegação lateral do site, mas nos concentramos na estrutura do código, além de irmos mais a fundo no CSS, mexendo com as variáveis; entendendo conceitos de responsividade e, também, criando o menu superior.
+Este é o repositório `branch` da quarta aula da **Imersão Front-End** da **Alura**, onde estamos construindo um Clone do Spotify. Nesta aula, continuamos a trabalhar na navegação lateral do site, mas nos concentramos na estrutura do código, além de irmos mais a fundo no CSS, mexendo com as variáveis; entendendo conceitos de responsividade e, também, criando o menu superior.
 
-![Dia 03 - Imersão Front-End](./assets/img/dia-03.png)
+![Dia 04 - Imersão Front-End](./assets/img/dia-04.png)
 
-## Objetivos do Dia 03
+## Objetivos do Dia 04
 
-- Refazer o footer;
-- Estruturar melhor o projeto;
-- Refatorar o código;
-- Fazer o layout flexbox;
-- Aprender conceitos de responsividade;
-- Criar o menu superior.
+- Criar os cards da página inicial;
+- Aprender a usar o CSS Grid Layout;
+- Utilizar media queries para responsividade;
+- Instalar do Node.js;
+- Introduzir o JavaScript no projeto;
+- Utilizar o conceito DOM;
+- Conhecer o método Promises do JavaScript.
 
 ## Como utilizar o projeto
 
@@ -21,11 +22,7 @@ Este é o repositório (branch) da terceira aula da Imersão Front-End da Alura,
 
 ## Recursos utilizados
 
-- HTML
-- CSS
-- Font Awesome (biblioteca de ícones)
-- FlexBox
-- Responsividade
+- 
 
 ## Desafio 
 
@@ -42,6 +39,12 @@ Este é o repositório (branch) da terceira aula da Imersão Front-End da Alura,
 - [CSS: Grids e tabelas com responsividade na Web](https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web)
 - [ChatGPT e a análise de dados avançada](https://www.youtube.com/watch?v=u-JoDQ58Dv0)
 
+---- DIA 04 ----
+
+- [Guia de JavaScript: o que é e como aprender a linguagem mais popular do mundo?](https://www.alura.com.br/artigos/javascript)
+- [CSS Grid: guia de propriedades de grid container e grid item](https://www.alura.com.br/artigos/css-grid-guia-propriedades-grid-container-grid-item)
+- [Flexibilidade em páginas para dispositivos móveis com media queries](https://www.alura.com.br/artigos/flexibilidade-em-paginas-para-dispositivos-moveis-com-media-queries)
+- [O que é o DOM?](https://www.alura.com.br/artigos/o-que-e-o-dom?)
 ## Contribuindo
 
 Contribuições são sempre bem-vindas! Se você encontrar algum problema no projeto ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
