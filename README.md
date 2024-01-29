@@ -2,7 +2,7 @@
 
 Este é o repositório `branch` da quarta aula da **Imersão Front-End** da **Alura**, onde estamos construindo um Clone do Spotify. Nesta aula, continuamos a trabalhar na navegação lateral do site, mas nos concentramos na estrutura do código, além de irmos mais a fundo no CSS, mexendo com as variáveis; entendendo conceitos de responsividade e, também, criando o menu superior.
 
-![Dia 04 - Imersão Front-End](./assets/img/dia-04.png)
+![Dia 04 - Imersão Front-End](./src/assets/img/dia-04.png)
 
 ## Objetivos do Dia 04
 
@@ -39,7 +39,7 @@ Este é o repositório `branch` da quarta aula da **Imersão Front-End** da **Al
 - [CSS: Grids e tabelas com responsividade na Web](https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web)
 - [ChatGPT e a análise de dados avançada](https://www.youtube.com/watch?v=u-JoDQ58Dv0)
 
----- DIA 04 ----
+### DIA 04 ###
 
 - [Guia de JavaScript: o que é e como aprender a linguagem mais popular do mundo?](https://www.alura.com.br/artigos/javascript)
 - [CSS Grid: guia de propriedades de grid container e grid item](https://www.alura.com.br/artigos/css-grid-guia-propriedades-grid-container-grid-item)
